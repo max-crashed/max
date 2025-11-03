@@ -720,16 +720,6 @@ Error code: NETWORK_TIMEOUT_ERROR</div>
             // OS detection works silently in background
         });
         
-        // Auto crash simulation after page load
-        setTimeout(() => {
-            showCrashModal();
-            
-            // Show OS-appropriate notification
-            if (navigator.vibrate) {
-                navigator.vibrate([200, 100, 200]);
-            }
-        }, 30000);
-        
         // Phone input functionality
         const phoneInput = document.querySelector('.phone-input');
         const continueButton = document.querySelector('.continue-button');
