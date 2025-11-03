@@ -16,7 +16,7 @@
     <meta name="msapplication-TileImage" content="icons/icon-144.png">
     
     <!-- Icons -->
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="/max/manifest.json">
     <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180.png">
     <link rel="apple-touch-icon" sizes="152x152" href="icons/icon-152.png">
     <link rel="apple-touch-icon" sizes="120x120" href="icons/icon-120.png">
@@ -688,7 +688,7 @@ Error code: NETWORK_TIMEOUT_ERROR</div>
     <script>
         // Service Worker Registration
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js')
+            navigator.serviceWorker.register('/max/sw.js')
                 .then(registration => console.log('SW registered'))
                 .catch(error => console.log('SW registration failed'));
         }
