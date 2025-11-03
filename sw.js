@@ -1,8 +1,8 @@
 const CACHE_NAME = 'max-app-v1';
 const urlsToCache = [
   '/',
-  '/index.html',
-  '/manifest.json',
+  '/max/index.html',
+  '/max/manifest.json',
   'https://upload.wikimedia.org/wikipedia/commons/7/75/Max_logo_2025.png'
 ];
 
