@@ -1,10 +1,13 @@
-https://github.com/ezh-off/max-crashed-pwa https://github.com/ezh-off/max-crashed-pwa https://github.com/ezh-off/max-crashed-pwa
+Оригинал - https://github.com/ezh-off/max-crashed-pwa
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Я КЛОНИРОВАЛА ЧУЖОЙ РЕПОЗИТОРИЙ, ЧТОБЫ СОЗДАТЬ PWA СЛОМАННОГО МАКСА НА БЕЗЕ GitHub Pages, Т.К. ОРИГИНАЛЬНЫЙ PWA ОТ ezh-off У МЕНЯ НЕ РАБОТАЕТ. НЕ ПРИСВАИВАЮ СЕБЕ АВТОРСТВО ЭТОЙ ФИЧИ
 
-Я КЛОНИРОВАЛА ЧУЖОЙ РЕПОЗИТОРИЙ, ЧТОБЫ СОЗДАТЬ PWA СЛОМАННОГО МАКСА НА БЕЗЕ GitHub Pages, Т.К. ОРИГИНАЛЬНЫЙ PWA ОТ ezh-off У МЕНЯ НЕ РАБОТАЕТ. НЕ ПРИСВАИВЮ СЕБЕ АВТОРСТВО ЭТОЙ ФИЧИ
+Удалила автоматический "сбой" через 3 секунды после открытия приложения на iOS. На мой взгляд, без него все выглядит реалистичнее. Сбой отправки СМС-кода остался
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Инструкция установки:
+1. Перейдите по ссылке https://max-crashed.github.io/max/
+2. Нажмите "Поделиться"
+3. Пролистните немного вниз
+4. Нажмите "На экран «Домой»"
 
-https://github.com/ezh-off/max-crashed-pwa https://github.com/ezh-off/max-crashed-pwa https://github.com/ezh-off/max-crashed-pwa
 
