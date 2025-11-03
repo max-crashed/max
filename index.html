@@ -613,23 +613,6 @@
         </div>
     </div>
     
-    <!-- iOS-style crash modal -->
-    <div class="ios-modal" id="crashModal">
-        <div class="ios-modal-content">
-            <div class="ios-modal-header">
-                <div class="ios-modal-title">MAX перестал работать</div>
-                <div class="ios-modal-message">Произошёл сбой в приложении (ошибка #4A7B-9C2E), обратитесь к разработчику приложения</div>
-            </div>
-            <div class="ios-modal-body">
-                <div class="ios-modal-error-code">Код ошибки: EXC_BAD_ACCESS (0x4A7B9C2E)</div>
-            </div>
-            <div class="ios-modal-buttons">
-                <button class="ios-modal-button" onclick="sendReport()">Отправить отчёт</button>
-                <button class="ios-modal-button" onclick="closeCrashModal()">Закрыть</button>
-            </div>
-        </div>
-    </div>
-    
     <!-- Second error modal -->
     <div class="ios-modal" id="secondErrorModal">
         <div class="ios-modal-content">
@@ -804,8 +787,6 @@ Error code: NETWORK_TIMEOUT_ERROR</div>
             if (os === 'android') {
                 document.getElementById('androidCrashModal').style.display = 'flex';
             } else {
-                // Default to iOS style for iOS and desktop
-                document.getElementById('crashModal').style.display = 'flex';
             }
         }
         
@@ -844,15 +825,6 @@ Error code: NETWORK_TIMEOUT_ERROR</div>
             }, 100);
         }
         
-        function sendAndroidReport() {
-            // Simulate sending crash report
-            alert('Отчёт о сбое отправлен разработчику');
-            // Immediate crash after report
-            setTimeout(() => {
-                closeApp();
-            }, 100);
-        }
-        
         function closeAndroidSecondError() {
             document.getElementById('androidSecondErrorModal').style.display = 'none';
         }
@@ -866,14 +838,6 @@ Error code: NETWORK_TIMEOUT_ERROR</div>
                     navigator.vibrate([200, 100, 200]);
                 }
             }, 1500);
-        }
-        
-        function closeCrashModal() {
-            document.getElementById('crashModal').style.display = 'none';
-            // Immediate aggressive crash
-            setTimeout(() => {
-                closeApp();
-            }, 100);
         }
         
         function sendReport() {
